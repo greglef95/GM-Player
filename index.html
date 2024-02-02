@@ -1,0 +1,99 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<img class="deseologo" src="img/deseologo.png" width="100px">
+<div class="nowplaying">
+  <div class="sc-status-widget">
+    <div
+      is="stream-status-widget"
+      lang="en"
+      api-base="https://ec4.yesstreaming.net:2060/api/v2"
+      server-id="1"
+      bgcolor="#000000"
+      bgopacity="0"
+      bgimage=""
+      meta_font_size="0"
+      meta_font_style="normal"
+      meta_font_color="#ffffff"
+      meta_opacity="0"
+      progress_bar_color="#486bcd"
+      progress_bar_bg_color="#e1e1e1"
+      progress_bar_height="0"
+      progress_opacity="0"
+      progress_font_color="#000000"
+      progress_font_opacity="0"
+      track_image_default="https://static.wixstatic.com/media/74dec6_bd78bc88a46a413795049488caee4dd4~mv2.png"
+      track_image_size="100"
+      vote_show="false"
+      vote_buttons_color="#000000"
+      vote_results_font_color_neg="#ff0000"
+      vote_results_font_color_pos="#00ff00"
+      vote_results_font_size="0"
+    ></div>
+  </div>
+  <script type="text/javascript" src="https://ec4.yesstreaming.net:2060/media/static/js/current_track_widget/status_widget.js" preload></script>
+</div>
+<div class="container">
+  <br />
+  <div class="nowtext" id="nowPlaying">#NowPlaying</div>
+  <br />
+</div>
+<div class="overlay-items">
+  <div class="searcher">
+    <div class="overlaytext sharelinktext">Search</div>
+    <div class="button-container">
+      <div class="deseo-btn-group">
+        <button class="deseobtn" onclick="googleSearch()" title="Search on Google"><img class="btn-img" src="https://res.cloudinary.com/dptkd3ttv/image/upload/v1695881530/social%20logos/Untitled_design_12_rlzgy3.png" /></button>
+        <button class="deseobtn" onclick="spotifySearch()" title="Search on Spotify">
+          <img class="btn-img" src="https://res.cloudinary.com/dptkd3ttv/image/upload/v1695881551/social%20logos/Untitled_design_10_nqmlwx.png" />
+        </button>
+      </div>
+      <div class="deseo-btn-group">
+        <button class="deseobtn" onclick="appleMusicSearch()" title="Search on Apple Music">
+          <img class="btn-img" src="https://res.cloudinary.com/dptkd3ttv/image/upload/v1695881554/social%20logos/Untitled_design_9_wtj9ho.png" />
+        </button>
+        <button class="deseobtn" onclick="soundcloudSearch()" title="Search on Soundcloud">
+          <img class="btn-img" src="https://res.cloudinary.com/dptkd3ttv/image/upload/v1695881548/social%20logos/Untitled_design_11_jpckav.png" />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="sharer">
+  <div class="overlaytext sharelinktext">Share</div>
+  <div class="button-container">
+    <div class="deseo-btn-group">
+      <button class="deseobtn" onclick="facebookShare()" title="Share on Facebook"><img class="btn-img" src="https://res.cloudinary.com/dptkd3ttv/image/upload/v1695883131/social%20logos/Untitled_design_15_p0ge9q.png" /></button>
+      <button class="deseobtn" onclick="twitterShare()" title="Share on X"><img class="btn-img" src="https://deseoradio.com/wp-content/uploads/2023/08/twitter-logo.png" /></button>
+    </div>
+    <div class="deseo-btn-group">
+      <button class="deseobtn" onclick="linkedinShare()" title="Share on Linkedin"><img class="btn-img" src="https://res.cloudinary.com/dptkd3ttv/image/upload/v1695883131/social%20logos/Untitled_design_16_bbdkga.png" /></button>
+      <button class="deseobtn" onclick="viberShare()" title="Send it on Viber"><img class="btn-img" src="https://res.cloudinary.com/dptkd3ttv/image/upload/v1695883131/social%20logos/Untitled_design_14_hwxk0t.png" /></button>
+    </div>
+  </div>
+</div>
+<script src="js/app.js"></script>
+</body>
+
+</html>

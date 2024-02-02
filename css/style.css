@@ -1,0 +1,163 @@
+@import url("https://fonts.cdnfonts.com/css/reformation-sans");
+
+html {
+  background-color:#1a1a1a;
+}
+
+.deseologo img {
+  top: 10vh;
+  left:50vh;
+}
+
+.container,
+.body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.searcher {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+.btn-img {
+  width: 20px;
+}
+.sharer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20%;
+  right: 5%;
+}
+.overlay-items {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  top: 0%;
+  left: 0%;
+  z-index: 999;
+  transition: opacity 0.8s ease-in-out, display 2s ease-in-out;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+.deseo-btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.deseobtn {
+  border-radius: 50%;
+  cursor: alias;
+  background-color: #1a1a1a;
+  border: none;
+  padding: 4px;
+  space-between: 2px;
+}
+.overlaytext {
+  text-align: center;
+  font-family: "ReFormation Sans Regular", sans-serif;
+  font-size: 16px;
+  padding-bottom: 6px;
+  padding-top: -5px;
+  margin-bottom: 5px;
+  color: white;
+}
+.sharelinktext {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.deseobtn {
+  border-radius: 50%;
+  cursor: zoom-in;
+  background-color: transparent;
+  border: none;
+  padding: 4px;
+  space-between: 2px;
+}
+.deseobtn:hover {
+  transform: scale(1.5);
+  transition: all 0.4s ease-in-out;
+}
+.deseobtn + .deseobtn {
+  margin-left: 5px;
+}
+.nowtext {
+  text-align: center;
+  font-family: "ReFormation Sans Regular", sans-serif;
+  font-size: 20px;
+  color: white;
+  max-width: 600px;
+}
+.nowplaying {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 350px;
+  margin: 0 auto;
+  z-index: 400;
+}
+.nowplaying img:hover {
+  transform: scale(1.1);
+  transition: all 1s ease;
+}
+.track_st_widget[data-v-3d6dba62] {
+  font-size: 10px;
+}
+.sc-status-widget img {
+  width: 350px !important;
+  cursor: zoom-in;
+  border-radius: 15px;
+}
+.track_st_vote-row[data-v-3d6dba62] {
+  display: table;
+  width: 100%;
+}
+.track_st_vote-td[data-v-3d6dba62] {
+  width: 50%;
+  text-align: left;
+  display: table-cell;
+}
+.track_st_vote-button svg[data-v-3d6dba62] {
+  width: 25%;
+}
+.track_st_progress[data-v-3d6dba62] {
+  width: 100%;
+}
+.track_st_progress-bar[data-v-3d6dba62] {
+  background: #ddd;
+  left: 0;
+  top: 0;
+  z-index: 500;
+  position: absolute;
+  transition: left 0.5s;
+}
+.track_st_progress-text[data-v-3d6dba62] {
+  z-index: 600;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.track_st_progress-wrap[data-v-3d6dba62] {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+}
+.text-centered[data-v-3d6dba62] {
+  text-align: left;
+  font-family: "Clear Sans", sans-serif;
+}
